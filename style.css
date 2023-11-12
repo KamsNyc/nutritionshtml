@@ -1,0 +1,336 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px; /* Adjust the height as needed */
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.links li {
+  margin-left: 10px;
+}
+
+.links li:first-child {
+  margin-left: 0;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.links li a:hover {
+  background-color: #eee;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+  
+  h1 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .input-container,
+  .output-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container h2,
+  .output-container h2 {
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  #ingredients {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  #labelInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  #analyzeBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #analyzeBtn:hover {
+    background-color: #45a049;
+  }
+  
+  #nutritionFacts {
+    margin-top: 10px;
+  }
+  
+  #nutritionFacts table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  #nutritionFacts th,
+  #nutritionFacts td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #nutritionFacts th {
+    background-color: #f2f2f2;
+  }
+  
+  .recipe-card {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .recipe-card:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .recipe-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .recipe-date {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .recipe-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .recipe-view-button,
+  .recipe-delete-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .recipe-view-button:hover,
+  .recipe-delete-button:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .pagination-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .pagination-button:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  .recipe-search-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #recipeSearchInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  #searchBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #searchBtn:hover {
+    background-color: #45a049;
+  }
+  
+  #searchResults {
+    margin-top: 10px;
+  }
+  
+  .recipe-card {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .recipe-card:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .recipe-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .recipe-date {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .recipe-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .recipe-view-button,
+  .recipe-delete-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .recipe-view-button:hover,
+  .recipe-delete-button:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .pagination-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .pagination-button:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

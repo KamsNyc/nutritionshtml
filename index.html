@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nutrition Analysis Service</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <img src="your-logo.png" alt="Logo">
+        </div>
+        <ul class="links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+  <h1></h1>
+  <div class="container">
+    <div class="input-container">
+      <label for="labelInput">Title:</label>
+      <input type="text" id="labelInput">
+      <h2>Enter Ingredients:</h2>
+      <textarea id="ingredients" rows="8" placeholder="Enter each ingredient on a new line"></textarea>
+      <button id="analyzeBtn">Analyze</button>
+    </div>
+    <div class="output-container">
+      <h2>Nutrition Facts:</h2>
+      <div id="nutritionFacts"></div>
+    </div>
+  </div>
+
+  <h2>Previous Recipes:</h2>
+  <div id="previousRecipes"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
